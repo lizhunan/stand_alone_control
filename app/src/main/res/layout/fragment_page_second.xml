@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017.
+  ~  山东冠世信息工程有限公司 版权所有
+  ~  创建者 李竹楠
+  -->
+
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootSecondPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    tools:background="@android:color/holo_green_dark"
+    tools:ignore="ContentDescription">
+
+
+    <ImageView
+        android:id="@+id/ivThirdImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/s_1_5"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="42%"
+        app:layout_widthPercent="15%" />
+
+    <ImageView
+        android:id="@+id/ivFourthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/s_1_8"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="52%"
+        app:layout_widthPercent="45%" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+
+        android:text="@string/s5"
+        android:textColor="@android:color/darker_gray"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="52%"
+        app:layout_widthPercent="45%" />
+
+    <ImageView
+        android:id="@+id/ivSeventhImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/s_1_8"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="32%"
+        app:layout_widthPercent="45%" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+
+        android:text="@string/s4"
+        android:textColor="@android:color/darker_gray"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="32%"
+        app:layout_widthPercent="45%" />
+
+    <ImageView
+        android:id="@+id/ivFifthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/s_1_5"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="22%"
+        app:layout_widthPercent="15%" />
+
+    <ImageView
+        android:id="@+id/ivEighthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/s_1_8"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="12%"
+        app:layout_widthPercent="45%" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+
+        android:text="@string/s3"
+        android:textColor="@android:color/darker_gray"
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="12%"
+        app:layout_widthPercent="45%" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+
+        android:text="@string/s2"
+        android:textColor="@android:color/white"
+
+        android:textSize="24sp"
+        app:layout_heightPercent="15%"
+        app:layout_marginBottomPercent="11%"
+        app:layout_widthPercent="45%" />
+</android.support.percent.PercentRelativeLayout>

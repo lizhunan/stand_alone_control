@@ -1,0 +1,66 @@
+/*
+ * Copyright (c) 2017.
+ *  山东冠世信息工程有限公司 版权所有
+ *  创建者 李竹楠
+ */
+
+package com.guanshinfo.win7.stand_alone_control.ui;
+
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
+
+/**
+ * Created by guanshinfo-lizhunan on 2017/7/11.
+ * 输入框一件清除内容工具类
+ */
+
+public class EditTextClearTools {
+    public static void addclerListener(final EditText e1, final ImageView m1) {
+
+        e1.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before,
+                                      int count) {
+                // TODO Auto-generated method stub
+
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count,
+                                          int after) {
+                // TODO Auto-generated method stub
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                // TODO Auto-generated method stub
+                // 监听如果输入串长度大于0那么就显示clear按钮。
+                String s1 = s + "";
+                if (s.length() > 0) {
+                    m1.setVisibility(View.VISIBLE);
+                } else {
+
+                    m1.setVisibility(View.INVISIBLE);
+                }
+
+            }
+        });
+
+        m1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                // 清空输入框
+                e1.setText("");
+
+            }
+        });
+
+    }
+}

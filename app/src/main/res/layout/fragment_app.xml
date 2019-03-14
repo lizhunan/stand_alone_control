@@ -1,0 +1,36 @@
+<!--
+  ~ Copyright (c) 2017.
+  ~  山东冠世信息工程有限公司 版权所有
+  ~  创建者 李竹楠
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="com.guanshinfo.win7.stand_alone_control.view.fragment.AppFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/applist_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/control_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="#33728dff"
+        app:srcCompat="@drawable/ic_update_add_24dp" />
+</FrameLayout>

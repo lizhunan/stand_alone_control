@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) 2017.
+  ~  山东冠世信息工程有限公司 版权所有
+  ~  创建者 李竹楠
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.guanshinfo.win7.stand_alone_control.view.UserActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

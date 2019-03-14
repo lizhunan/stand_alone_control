@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) 2017.
+  ~  山东冠世信息工程有限公司 版权所有
+  ~  创建者 李竹楠
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:drawable="@drawable/shape_bule_button" android:state_pressed="false"/>
+<item android:drawable="@drawable/shape_touch_bule_button" android:state_pressed="true"/>
+
+</selector>

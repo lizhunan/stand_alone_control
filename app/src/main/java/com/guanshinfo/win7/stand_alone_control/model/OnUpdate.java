@@ -1,0 +1,15 @@
+/*
+ * Copyright (c) 2017.
+ *  山东冠世信息工程有限公司 版权所有
+ *  创建者 李竹楠
+ */
+
+package com.guanshinfo.win7.stand_alone_control.model;
+
+/**
+ * Created by guanshinfo-lizhunan on 2017/7/27.
+ * 获取更新信息接口
+ */
+
+public interface OnUpdate {
+}
